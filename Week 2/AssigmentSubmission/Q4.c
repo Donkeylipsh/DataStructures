@@ -39,10 +39,14 @@ void sort(struct student* students, int n){
 	        }
 	    }
 
-	    // Swap the values in students[i] with students[maxIndex]
+	    // Swap the score values in students[i] with students[maxIndex]
 	    int tempMax = students[maxIndex].score;
 	    students[maxIndex].score = students[i].score;
  	    students[i].score = tempMax;
+	    // Swap the id values in students[i] with students[maxIndex]
+	    int tempId = students[maxIndex].id;
+	    students[maxIndex].id = students[i].id;
+	    students[i].id = tempId;
         }
     }
 }
