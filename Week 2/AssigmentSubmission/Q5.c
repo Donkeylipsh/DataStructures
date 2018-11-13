@@ -38,14 +38,14 @@ void sticky(char* word){
 	    // If even, check if the character is lowercase
 	    if(islower(word[i]) != 0){
 		// If yes, set it to uppercase
-		word[i] = toupper(word[i]);
+		word[i] = toUpperCase(word[i]);
 	    }
 	}
 	else{
 	    // If odd, check if the character is lowercase
 	    if(islower(word[i]) == 0){
 		// If not, set it to lowercase
-		word[i] = tolower(word[i]);
+		word[i] = toLowerCase(word[i]);
 	    }
 	}
 	i++;
