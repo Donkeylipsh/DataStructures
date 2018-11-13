@@ -1,6 +1,5 @@
 /* CS261- Assignment 1 - Q. 0*/
 /* Name: Colin Van Overschelde
- * Date: 1/19/2018
  * Solution description: Q0.c is a program that prints the address of an int x, and then passes
  * 			 a pointer to x to function fooA.  When fooA completes, the value of x
  * 			 is printed and the program exits 
